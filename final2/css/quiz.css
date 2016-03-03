@@ -1,17 +1,20 @@
 /* All CSS files regarding Quiz Application */
 /* Sandhya */
 .navbar.navbar-default {
-    background-color:#707087;
+    background-color: 
+ #595959;
    
 }
 .nav.navbar-nav.navbar-right li a {
     color: #fff;
+   font-size:15px;
 }
 .nav.navbar-nav.navbar-right ul li a {
     color: #000;
 }
 .nav.navbar-nav li a{
 	color: #fff;
+    font-size:15px;
 }
 .footer{
 position: relative;
@@ -31,8 +34,10 @@ position: relative;
 /* Ramkrushnamma */
 body
 {
-	background-color:#FFF;
+	background-color:#fff;
     font-family: 'Open Sans', sans-serif;
+  
+    
 }
 h3
 {
@@ -83,18 +88,30 @@ div img{
 }
 /* Rajasekhar */
 .question {
-	background-color:#FAD0B8;
-	border: 1px solid black;
+	background-color:darkgrey;
+	
 	
 	padding-top:50px;
 }
 .two{
-	background-color:#C07C74;
+	background-color:;
 	padding-top:50px;
 }
 input[type="submit"]{
-    width: 20em; 
-    height: 3em;
+    width:260px; 
+    height:70px;
+    margin-left:60px;
+    font-size:20px;
   
+}
+tr{
+    line-height:20px;
+}
+#main{
+    position:relative;
+}
+#result{
+    align:center;
+    margin-top:260px;
 }
 
